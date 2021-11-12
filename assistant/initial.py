@@ -1,5 +1,5 @@
-# Ultroid - UserBot
-# Copyright (C) 2021 TeamUltroid
+# SURTUR- UserBot
+# Copyright (C) 2021 TEAMSURTURBOT
 #
 # This file is a part of < https://github.com/TeamUltroid/Ultroid/ >
 # PLease read the GNU Affero General Public License in
@@ -10,29 +10,23 @@ import re
 from . import *
 
 STRINGS = {
-    1: """🎇 **Thanks for Deploying Ultroid Userbot!**
+    1: """🎇 **Thanks for Deploying SURTURBOT Userbot!**
 
 • Here, are the Some Basic stuff from, where you can Know, about its Usage.""",
-    2: """🎉** About Ultroid**
+    2: """🎉** About SURTURBOT**
 
-🧿 Ultroid is Pluggable and powerful Telethon Userbot, made in Python from Scratch. It is Aimed to Increase Security along with Addition of Other Useful Features.
+🧿 SURTURBOT is Pluggable and powerful Telethon Userbot, made in Python from Scratch. It is Aimed to Increase Security along with Addition of Other Useful Features.
 
-❣ Made by **@TeamUltroid**""",
+❣ Made by **@TEAMSURTUR**""",
     3: """**💡• FAQs •**
 
--> [Username Tracker](https://t.me/UltroidUpdates/24)
--> [Keeping Custom Addons Repo](https://t.me/UltroidUpdates/28)
--> [Disabling Deploy message](https://t.me/UltroidUpdates/27)
+-> [Username Tracker](https://t.me/SURTUR_SUPPORT)
+-> [Disabling Deploy message](https://t.me/SURTUR_SUPPORT)
 -> [Setting up TimeZone](https://t.me/UltroidUpdates/22)
--> [About Inline PmPermit](https://t.me/UltroidUpdates/21)
--> [About Dual Mode](https://t.me/UltroidUpdates/18)
--> [Custom Thumbnail](https://t.me/UltroidUpdates/13)
--> [About FullSudo](https://t.me/UltroidUpdates/11)
--> [Setting Up PmBot](https://t.me/UltroidUpdates/2)
--> [Also Check](https://t.me/UltroidUpdates/14)
-
+-> [Setting Up PmBot](https://t.me/SURTUR_SUPPORT)
+-> [Also Check](https://t.me/SURTUR_SUPPORT)
 **• To Know About Updates**
-  - Join @TheUltroid.""",
+  - Join @TEAMSURTUR.""",
     4: f"""• `To Know All Available Commands`
 
   - `{HNDLR}help`
