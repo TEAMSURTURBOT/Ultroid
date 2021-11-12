@@ -14,10 +14,10 @@ from telethon.errors import (
 from . import LOG_CHANNEL, LOGS, Button, asst, eor, get_string, ultroid_cmd
 
 REPOMSG = """
-• **ULTROID USERBOT** •\n
-• Repo - [Click Here](https://github.com/TeamUltroid/Ultroid)
-• Addons - [Click Here](https://github.com/TeamUltroid/UltroidAddons)
-• Support - @UltroidSupport
+• **SURTUR USERBOT** •\n
+• Repo - [Click Here](https://github.com/TEAMSURTURBOT/SURTURBOT)
+• Addons - [Click Here](https://github.com/TEAMSURTURBOT/UltroidAddons)
+• Support - @TEAMSURTURBOT
 """
 
 RP_BUTTONS = [
@@ -25,10 +25,10 @@ RP_BUTTONS = [
         Button.url(get_string("bot_3"), "https://github.com/TeamUltroid/Ultroid"),
         Button.url("Addons", "https://github.com/TeamUltroid/UltroidAddons"),
     ],
-    [Button.url("Support Group", "t.me/ultroidsupport")],
+    [Button.url("Support Group", "t.me/SURTURsupport")],
 ]
 
-ULTSTRING = """🎇 **Thanks for Deploying Ultroid Userbot!**
+ULTSTRING = """🎇 **Thanks for Deploying SURTUR Userbot 🤗.!**
 
 • Here, are the Some Basic stuff from, where you can Know, about its Usage."""
 
@@ -53,13 +53,13 @@ async def repify(e):
     await eor(e, REPOMSG)
 
 
-@ultroid_cmd(pattern="ultroid$")
+@ultroid_cmd(pattern="SURTUR$")
 async def useUltroid(rs):
     button = Button.inline("Start >>", "initft_2")
     msg = await asst.send_message(
         LOG_CHANNEL,
         ULTSTRING,
-        file="https://telegra.ph/file/54a917cc9dbb94733ea5f.jpg",
+        file="https://telegra.ph/file/852a8de1eaa17e61867c2.jpg",
         buttons=button,
     )
     await eor(rs, f"**[Click Here]({msg.message_link})**")
