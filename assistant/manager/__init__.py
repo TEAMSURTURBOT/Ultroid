@@ -1,5 +1,5 @@
-# Ultroid - UserBot
-# Copyright (C) 2021 TeamUltroid
+# SURTUR- UserBot
+# Copyright (C) 2021 Teamsurtur
 #
 # This file is a part of < https://github.com/TeamUltroid/Ultroid/ >
 # PLease read the GNU Affero General Public License in
