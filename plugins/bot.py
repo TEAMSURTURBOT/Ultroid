@@ -76,7 +76,7 @@ from . import (
 
 # Will move to strings
 alive_txt = """
-The Ultroid Userbot
+The SURTUR Userbot
 
   ◍ Version - {}
   ◍ Py-Ultroid - {}
@@ -160,8 +160,8 @@ async def is_on(ult):
     buttons = [
         [Button.inline(get_string("bot_2"), "alive")],
         [
-            Button.url(get_string("bot_3"), "https://github.com/TeamUltroid/Ultroid"),
-            Button.url(get_string("bot_4"), "t.me/UltroidSupport"),
+            Button.url(get_string("bot_3"), "http://github.com/TEAMSURTUR/SURTURBOT"),
+            Button.url(get_string("bot_4"), "t.me/TEAMSURTUR"),
         ],
     ]
     await ult.client.send_message(
@@ -227,7 +227,7 @@ async def _(event):
             code=code,
             background=choice(ATRA_COL),
         ).memorize("ultroid-logs")
-        await event.reply("**Ultroid Logs.**", file=file)
+        await event.reply("**SURTURBOT Logs.**", file=file)
     else:
         await def_logs(event)
     await event.delete()
@@ -254,8 +254,8 @@ async def inline_alive(ult):
     )
     buttons = [
         [
-            Button.url(get_string("bot_3"), "https://github.com/TeamUltroid/Ultroid"),
-            Button.url(get_string("bot_4"), "t.me/UltroidSupport"),
+            Button.url(get_string("bot_3"), "https://github.com/TEAMSURTURBOT"),
+            Button.url(get_string("bot_4"), "t.me/TEAMSURTURBOT"),
         ]
     ]
     builder = ult.builder
